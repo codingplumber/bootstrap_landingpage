@@ -16,7 +16,7 @@ body, html {
     text-align: center;
   }
   #header img {
-    margin: 0 auto;
+    margin: 20% auto 0;
   }
   #social {
     text-align: center;
@@ -29,6 +29,9 @@ body, html {
   }
   #who img {
     margin-top: 15%;
+  }
+  #footer {
+    text-align: center;
   }
 }
 
@@ -167,6 +170,7 @@ body, html {
 /*CUSTOMERS*/
 #customers {
   padding: 5rem 0;
+  overflow: hidden;
 }
 
 #customers .carousel-indicators li {
@@ -205,4 +209,24 @@ body, html {
 
 #pricing .card {
   margin-top: 20px;
+}
+
+/*CONTACT*/
+#contact {
+  padding: 5rem 0;
+}
+
+/*FOOTER*/
+#footer {
+  padding: 2rem 0;
+  background-color: #484848;
+  color: #fff;
+}
+
+#footer a {
+  color: #fff;
+}
+
+#footer .fa {
+  padding: 0 5px;
 }
